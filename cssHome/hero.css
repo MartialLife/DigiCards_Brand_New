@@ -1,0 +1,79 @@
+/* Hero Section Start */
+.heroSection{
+  position: relative;
+  width: 100dvw;
+  height: 85dvh;
+  display: flex;
+  background-image: url(../Images/satisfied-young-manager-showing-smartphone-screen-2023-11-27-05-20-20-utc.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mockup1{
+  height: 100%;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+}
+.mockup1 img{
+  grid-area: 1 / 1;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  grid-area: 1 / 1;
+  margin-bottom: 13rem;
+  margin-left: 20rem;
+}
+.mockup1 h2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.mockup1 p{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.info1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info1 p{
+  width: 80%;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: var(--white);
+  padding: 3rem;
+  background-color: rgba(120, 5, 3, 0.5);
+  backdrop-filter: blur(6px);
+  border-top: 1.5px solid var(--red);
+  border-left: 1.5px solid var(--red);
+  border-radius: 3rem;
+  margin-top: 10rem;
+}
+@media(max-width: 1200px){
+  .heroSection{
+      flex-direction: column;
+      height: fit-content;
+  }
+  .info1{
+      width: 100%;
+      height: 50%;
+      margin-top: -5rem;
+      margin-bottom: 5rem;
+  }
+  .mockup1{
+      width: 80%;
+      height: 50%;
+      margin-left: -5rem;
+      margin-top: 5rem;
+  }
+}
+/* Hero Section End */

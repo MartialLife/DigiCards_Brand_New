@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digicards - Browse Products</title>
+    <meta
+      name="description"
+      content="Select the product that suits your needs and start sharing your profile digitally today!"
+    />
+    <meta
+      name="keywords"
+      content="Digital business cards, Digital profile sharing"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="cssHome/globalHead.css">
+    <link rel="stylesheet" href="cssHome/globalFooter.css">
+    <link rel="stylesheet" href="plans.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&family=Italianno&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Head Start -->
+    <div class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="Images/digicards-logo-design-4-red-white-copy-min-671a4f05da193.webp"
+            width="180px"
+            alt=" Digicards Logo"
+          />
+        </div>
+        <ul class="links">
+          <li class="links-li"><a href="index.html" title="Home">Home</a></li>
+          <li><a href="plans.html" title="Plans">Plans</a></li>
+          <li class="links-li">
+            <a href="packages.html" title="Packages">Packages</a>
+          </li>
+          <li><a href="contact.html" title="Contact">Contact us</a></li>
+        </ul>
+
+        <div class="toggle_btn">
+          <ion-icon name="menu-outline" class="hamburger"></ion-icon>
+        </div>
+      </nav>
+      <nav class="dropdown_menu">
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="about.html" title="About">About us</a></li>
+        <li><a href="products.html" title="Products">Products</a></li>
+        <li><a href="contact.html" title="contact">Contact us</a></li>
+      </nav>
+    </div>
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen ? "hamburger1" : "hamburger";
+      };
+    </script>
+    <!-- Head End -->
+
+    <!-- Body Start -->
+
+    <main>
+      <section class="heading">
+        <h2>Let's get you started</h2>
+        <p>
+          We offer 4 options to help you enter the world of digital business
+          cards and more.
+        </p>
+        <div class="freeDigishare">
+          <div class="freeDigishareHeading">
+            <span><h3>Free</h3></span>
+            <h4>Digishare</h4>
+          </div>
+          <p>
+            The DigiShare option offers you a basic free profile with your basic
+            details which a client can save to their contact.
+          </p>
+        </div>
+
+        <div class="optionsTable">
+          <table>
+            <tr>
+              <th></th>
+              <th>DigiShare</th>
+              <th>DigiSilver</th>
+              <th>DigiGold</th>
+              <th>DigiCorp</th>
+            </tr>
+  
+            <tr>
+              <td class="feature">PRICE</td>
+              <td>Free</td>
+              <td>R40/month</td>
+              <td>R60/month</td>
+              <td>POR</ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">LOGO</td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">NAME</td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">NUMBER</td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">EMAIL</td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">SOCIAL LINKS</td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">SAVE TO CONTACTS</td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">SHARE CONTACTS VIA QR CODE</td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">SHARE CONTACTS VIA WHATSAPP AND EMAIL</td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">PROFILE IMAGE</td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">LEAD FORM</td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">GALLERY</td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">VIDEO</td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">BOOKINGS</td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">PRODUCT LIST</td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+            <tr>
+              <td class="feature">CRM INTEGRATION</td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="radio-button-off-outline"></ion-icon></td>
+              <td><ion-icon name="checkmark-circle"></ion-icon></td>
+            </tr>
+          </table>
+        </div>
+        <div class="corporateOptions">
+          <div class="corporateOptionsHeading">
+            <h4>Corporate Options</h4>
+          </div>
+          <p>
+            For our corporate members we offer customized 
+            package deals which can include a range of 
+            specialized aspects to help them optimize their 
+            business card experience.
+          </p>
+          <a href="#" class="clickRed">Contact us now</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Body End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <img
+        class="footerLeft"
+        src="Images/digicards-logo-design-4-red-white-copy-min-671a4f05da193.webp"
+        width="400px"
+        alt="Digicards Logo"
+      />
+      <form action="" method="post" class="footerRight">
+        <h3><i>Get things started</i></h3>
+        <div class="input">
+          <label for="name"><i>Name</i></label>
+          <input
+            type="text"
+            name="Name"
+            id="name"
+            class="contact-inputs"
+            required
+          />
+        </div>
+        <div class="input">
+          <label for="email"><i>Email</i></label>
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            class="contact-inputs"
+            required
+          />
+        </div>
+        <div class="input">
+          <label for="phone"><i>WhatsApp Number</i></label>
+          <input
+            type="tel"
+            name="Number"
+            id="phone"
+            class="contact-inputs"
+            required
+          />
+        </div>
+        <button type="submit" class="button">Let's Go!</button>
+      </form>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Global Script Start -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Global Script End -->
+  </body>
+</html>

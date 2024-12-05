@@ -1,0 +1,76 @@
+:root{
+  --white: #f6f6f6;
+  --grey: #6c6c6a;
+  --red: #be2623;
+  --black: #131313;
+}
+
+.packages{
+  background-image: url(Images/Digi-BG-2.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100dvw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+.packages img{
+  margin-block: 1rem;
+}
+.allOptions{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.option{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  gap: 1.5rem;
+  background-color: rgb(190, 38, 35, 0.5);
+  backdrop-filter: blur(6px);
+  border-top: 1.5px solid var(--red);
+  border-left: 1.5px solid var(--red);
+  border-radius: 1rem;
+}
+.optionName{
+  color: var(--white);
+}
+.price{
+  color: var(--white); 
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.description{
+  color: var(--white);
+  font-size: 1.2rem;
+}
+.optionSpan{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.optionList{
+  color: var(--white);
+}
+.optionList li{
+  line-height: 1.8rem;
+}
+
+@media(max-width: 768px){
+  .packages img{
+    width: 250px;
+  }
+}

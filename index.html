@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digicards - Digital Business Cards</title>
+    <meta
+      name="description"
+      content="Easily share your profile with new contacts or clients using our specially designed Digicard!"
+    />
+    <meta
+      name="keywords"
+      content="Digital business cards, Digital profile sharing"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="cssHome/globalHead.css" />
+    <link rel="stylesheet" href="cssHome/hero.css" />
+    <link rel="stylesheet" href="cssHome/silver&Gold.css" />
+    <link rel="stylesheet" href="cssHome/corporate.css" />
+    <link rel="stylesheet" href="cssHome/customize.css" />
+    <link rel="stylesheet" href="cssHome/options.css" />
+    <link rel="stylesheet" href="cssHome/clients.css" />
+    <link rel="stylesheet" href="cssHome/globalFooter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Head Start -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="Images/digicards-logo-design-4-red-white-copy-min-671a4f05da193.webp"
+            width="180px"
+            alt=" Digicards Logo"
+          />
+        </div>
+        <ul class="links">
+          <li class="links-li"><a href="index.html" title="Home">Home</a></li>
+          <li class="links-li"><a href="plans.html" title="Plans">Plans</a></li>
+          <li class="links-li">
+            <a href="packages.html" title="Packages">Packages</a>
+          </li>
+          <li class="links-li">
+            <a href="contact.html" title="Contact">Contact us</a>
+          </li>
+        </ul>
+
+        <div class="toggle_btn">
+          <ion-icon name="menu-outline" class="hamburger"></ion-icon>
+        </div>
+      </nav>
+      <nav class="dropdown_menu">
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="about.html" title="About">About us</a></li>
+        <li><a href="products.html" title="Products">Products</a></li>
+        <li><a href="contact.html" title="contact">Contact us</a></li>
+      </nav>
+    </header>
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen ? "hamburger1" : "hamburger";
+      };
+    </script>
+    <!-- Head End -->
+
+    <!-- Body Start -->
+
+    <!-- Hero Section Start -->
+    <section class="heroSection">
+      <div class="mockup1">
+        <div class="text">
+          <h2>Digishare</h2>
+          <p>
+            <i>Our free basic business card</i>
+          </p>
+        </div>
+        <img
+          src="Images/digicards-android-phone-mockup-1-copy-min-671a4f088466f.webp"
+          width="100%"
+          alt="Android mockup"
+        />
+      </div>
+      <div class="info1">
+        <p>
+          <i
+            >With our free option you have your own digital business profile, to
+            easily share your digital business card with clients. Our PVA card
+            is option to purchase, or you can just use your QR code or link.</i
+          >
+        </p>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- DigiSilver & DigiGold Start -->
+    <section class="digishare">
+      <div class="info2">
+        <p>
+          <span>DigiSilver & DigiGold</span> <br /><br />
+          <i
+            >With our customizable options, you can include not just a business
+            card profile, but also links to your social media platforms and
+            more.</i
+          >
+        </p>
+      </div>
+      <div class="mockup2">
+        <img
+          src="Images/cellphone-mockup-3-copy-min-671a4f0bb9b68.webp"
+          width="150%"
+          alt="Cellphone mockup"
+        />
+      </div>
+    </section>
+    <!-- DigiSilver & DigiGold End -->
+
+    <!-- Corporate Start -->
+    <section class="corporate">
+      <div class="custom-shape-divider-bottom-1730674843">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="mockup3">
+        <img
+          src="Images/psd-cellphone-ezette-copy-min-671a4f0327b2f.webp"
+          width="120%"
+          alt="Cellphone mockup"
+        />
+      </div>
+      <div class="info3">
+        <p>
+          <span>Customizable Corporate Plan</span> <br /><br />
+          <i
+            >Corporate clients <br />can elevate their professionalism by
+            providing custom-designed profiles for all their agents. Talk to our
+            friendly sales representatives to create a package perfect for
+            you.</i
+          >
+        </p>
+      </div>
+    </section>
+    <!-- Corporate End -->
+
+    <!-- Customize Start -->
+    <section class="customize">
+      <div class="customizeHeading">
+        <h2>ACCESSORIES</h2>
+        <h3>Tap-and-share Cards</h3>
+      </div>
+      <div class="customizeGroup">
+        <div class="mockup4">
+          <img
+            src="Images/plastic-card-mockup-jack-hartland-copy-min-671a4f0386b8a.webp"
+            width="150%"
+            alt="Plastic card"
+          />
+        </div>
+        <div class="info4">
+          <p>
+            <i
+              >We have a plastic digicard that gives you an easy tap-and-share
+              ability to open up your digital profile on your new contact of
+              client's phone. The branding on your card can be customized to
+              your specifications. <br />
+              You have 3 options for the cards – PVC, Bamboo or Aluminium.</i
+            >
+          </p>
+        </div>
+      </div>
+      <a href="#" class="clickGrey">Let's design your personal card now</a>
+    </section>
+    <!-- Customize End -->
+
+    <!-- Options Start -->
+    <section class="options">
+      <div class="optionsHeading">
+        <img
+          src="Images/digicards-logo-design-4-red-white-copy-min-671a4f05da193.webp"
+          width="300px"
+          alt="Digicards Logo"
+        />
+        <p>
+          <i
+            ><br />Choose your plan below and start sharing your business
+            digitally today!</i
+          >
+        </p>
+      </div>
+      <div class="cards">
+        <div class="optionsCards">
+          <div class="cardInfo">
+            <p><i>Digishare</i></p>
+            <span class="small"><i>Yearly</i></span>
+            <span class="price"><i>Free</i></span>
+          </div>
+          <div class="optionsInfo">
+            <p>
+              Personal QR code <br />Basic Profile <br />Save to Contacts
+              <br />Send options
+            </p>
+          </div>
+          <a href="#" class="getNow"><i>Get Now</i></a>
+        </div>
+        <div class="optionsCards">
+          <div class="cardInfo">
+            <p><i>DigiSilver</i></p>
+            <span class="small"><i>Yearly</i></span>
+            <span class="price"><i>R480.00</i></span>
+          </div>
+          <div class="optionsInfo">
+            <p>
+              Personal QR code <br />Personal Branding <br />Social Media Links
+              <br />Save to Contacts <br />Send options
+            </p>
+          </div>
+          <a href="#" class="getNow"><i>Get Now</i></a>
+        </div>
+        <div class="optionsCards">
+          <div class="cardInfo">
+            <p><i>DigiGold</i></p>
+            <span class="small"><i>Yearly per member</i></span>
+            <span class="price"><i>R720.00</i></span>
+          </div>
+          <div class="optionsInfo">
+            <p>
+              Member QR code <br />Corporate Profile <br />Social Media Links
+              <br />Lead Generating Form <br />Save to Contacts <br />Send
+              options
+            </p>
+          </div>
+          <a href="#" class="getNow"><i>Get Now</i></a>
+        </div>
+      </div>
+      <a href="" class="clickRed">Request Corporate Package</a>
+    </section>
+    <!-- Options End -->
+
+    <!-- Clients Start -->
+    <section class="clients">
+      <div class="custom-shape-divider-bottom-1730675477">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <h2><i>Clients Talk</i></h2>
+      <div class="testimonial">
+        <div class="clientLogo">
+          <img src="Images/JackHartlandLogo.webp" width="600px" alt="" />
+        </div>
+        <div class="clientWords">
+          <p>
+            <i
+              >"As a Youtuber being able to share all my platforms when I meet a
+              new subscriber, the digicard makes it so much easier to actually
+              connect new people to my different platforms. It gives me such an
+              edge!" <br /><br />- Jack Hartland</i
+            >
+          </p>
+        </div>
+      </div>
+      <a
+        href="https://vbcard.mobi/dual/jacques-van-der-merwe"
+        class="clickWhite"
+        >View profile</a
+      >
+    </section>
+    <!-- Clients End -->
+
+    <!-- Body End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <img
+        class="footerLeft"
+        src="Images/digicards-logo-design-4-red-white-copy-min-671a4f05da193.webp"
+        width="400px"
+        alt="Digicards Logo"
+      />
+      <form action="" method="post" class="footerRight">
+        <h3><i>Get things started</i></h3>
+        <div class="input">
+          <label for="name"><i>Name</i></label>
+          <input
+            type="text"
+            name="Name"
+            id="name"
+            class="contact-inputs"
+            required
+          />
+        </div>
+        <div class="input">
+          <label for="email"><i>Email</i></label>
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            class="contact-inputs"
+            required
+          />
+        </div>
+        <div class="input">
+          <label for="phone"><i>WhatsApp Number</i></label>
+          <input
+            type="tel"
+            name="Number"
+            id="phone"
+            class="contact-inputs"
+            required
+          />
+        </div>
+        <button type="submit" class="button">Let's Go!</button>
+      </form>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Global Script Start -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Global Script End -->
+  </body>
+</html>

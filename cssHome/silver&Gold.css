@@ -1,0 +1,57 @@
+/* Digishare Start */
+.digishare{
+  width: 100dvw;
+  height: 85dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../Images/Digi-BG-1.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.info2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info2 p{
+  width: 80%;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: var(--white);
+  padding: 3rem;
+  background-color: rgb(190, 38, 35, 0.5);
+  backdrop-filter: blur(6px);
+  border-top: 1.5px solid var(--red);
+  border-left: 1.5px solid var(--red);
+  border-radius: 3rem;
+}
+.info2 p span{ 
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.mockup2{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mockup2 img{
+  margin-right: 5rem;
+}
+@media(max-width: 1200px){
+  .digishare{
+      flex-direction: column-reverse;
+      height: fit-content
+  }
+  .info2{
+      width: 100%;
+      margin-bottom: 5rem;
+  }
+}
+/* Digishare End */

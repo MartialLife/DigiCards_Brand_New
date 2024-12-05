@@ -1,0 +1,136 @@
+/* Options Start */
+.options{
+  width: 100dvw;
+  height: fit-content;
+  padding: 3rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../Images/Digi-BG-2.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.optionsHeading{
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.optionsHeading p{
+  width: 55%;
+  font-size: 1.8rem;
+  color: var(--white);
+  text-align: justify;
+}
+.cards{
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.optionsCards{
+  height: 500px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 3rem;
+  background-color: rgb(190, 38, 35, 0.5);
+  backdrop-filter: blur(6px);
+  border-top: 1.5px solid var(--red);
+  border-left: 1.5px solid var(--red);
+  border-radius: 3rem;
+  transition: 0.3s ease-in-out;
+}
+.optionsCards:hover{
+  transform:scale(110%);
+}
+.cardInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.cardInfo p{
+  font-size: 1.8rem;
+  color: var(--white);
+}
+.small{
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: var(--white);
+}
+.price{
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white);
+}
+.getNow{
+  text-decoration: none;
+  font-weight: 300;
+  border: 1.8px solid var(--red);
+  color: var(--white);
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  transition: 0.3s ease-in-out;
+}
+.getNow:hover{
+  letter-spacing: 0.1rem;
+}
+.optionsInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  gap: 1rem;
+}
+.optionsInfo h4{
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 1rem
+}
+.optionsInfo p{
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+.clickRed{
+  margin-top: 5rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  color: var(--red);
+  background-color: transparent;
+  border: 1.8px solid var(--red);
+  border-radius: 3rem;
+  transition: 0.3s ease-in-out;
+}
+.clickRed:hover{
+  letter-spacing: 0.1rem;
+}
+@media(max-width: 1200px){
+  .optionsHeading{
+      flex-direction: column;
+  }
+  .optionsHeading p{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 3rem;
+  }
+}
+/* Options End */
